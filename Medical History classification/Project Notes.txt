@@ -1,0 +1,31 @@
+# Data preparation: 
+-handile Missing values->Data cleaning
+-handle negative BMI value
+-Data Type Conversion
+
+# Univariate data Exploration
+-summary statistics
+-Histograms -> hist(data,main=title,xlabels,ylables,xlimit,ylimit,col=color,border) syntext
+-count of categorical variables
+-bar plots for categorical variables
+-Box Plots
+-check for outliers
+-correlation analysis
+
+rownames(): 
+table(): this function calculate the number of unique value in sepecified column.
+sort(table(mydata$gender),decreasing = TRUE): this part sorts the frequency in descending order.
+
+
+IQR: Before getting started, let’s understand what are quartiles? Quartiles are the values that divide a list of
+ numerical data into three quarters.  There are three quartiles, first, second and third, denoted by Q1, Q2 and Q3. 
+Here, Q2 is nothing but the median of the given data.
+The interquartile range defines the difference between the third and the first quartile. Quartiles are
+ the partitioned values that divide the whole series into 4 equal parts. So, there are 3 quartiles. First Quartile is 
+denoted by Q1 known as the lower quartile, the second Quartile is denoted by Q2 and the third Quartile is denoted by Q3 known 
+as the upper quartile.
+ Therefore, the interquartile range is equal to the upper quartile minus lower quartile.
+
+
+Interquartile range = Upper Quartile – Lower Quartile = Q­3 – Q­1
+
